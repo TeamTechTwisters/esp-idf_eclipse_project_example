@@ -1,0 +1,6 @@
+source "/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/app_update/Kconfig.projbuild"
+source "/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/main/Kconfig.projbuild"

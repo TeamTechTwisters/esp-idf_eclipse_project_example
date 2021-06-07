@@ -1,0 +1,4 @@
+INSTALL_TOOLS_FLAG=true
+eclipse.preferences.version=1
+preference/GIT_EXECUTABLE=/usr/bin/git
+preference/PYTHON_EXECUTABLE=/usr/bin/python

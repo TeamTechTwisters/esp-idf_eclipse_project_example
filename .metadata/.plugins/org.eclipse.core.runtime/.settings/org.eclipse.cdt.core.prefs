@@ -1,0 +1,26 @@
+build.all.configs.enabled=false
+build.proj.ref.configs.enabled=false
+config/blink/cdt.launchMode=run
+config/blink/cdt.toolChain.id=gcc-x86_64-/usr/bin/gcc
+config/blink/cdt.toolChain.type=org.eclipse.cdt.build.gcc
+config/blink/com.espressif.idf.cmake.core.provider/default/cdt.launchMode=run
+config/blink/com.espressif.idf.cmake.core.provider/default/cdt.toolChain.id=gcc-xtensa-/home/rajssss/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+config/blink/com.espressif.idf.cmake.core.provider/default/cdt.toolChain.type=org.eclipse.cdt.build.gcc
+config/blink/com.espressif.idf.cmake.core.provider/default/cmake.generator=Ninja
+eclipse.preferences.version=1
+environment/workspace/IDF_PATH/delimiter=\:
+environment/workspace/IDF_PATH/operation=replace
+environment/workspace/IDF_PATH/value=/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf
+environment/workspace/IDF_PYTHON_ENV_PATH/delimiter=\:
+environment/workspace/IDF_PYTHON_ENV_PATH/operation=replace
+environment/workspace/IDF_PYTHON_ENV_PATH/value=/home/rajssss/.espressif/python_env/idf4.4_py3.8_env
+environment/workspace/OPENOCD_SCRIPTS/delimiter=\:
+environment/workspace/OPENOCD_SCRIPTS/operation=replace
+environment/workspace/OPENOCD_SCRIPTS/value=/home/rajssss/.espressif/tools/openocd-esp32/v0.10.0-esp32-20210401/openocd-esp32/share/openocd/scripts
+environment/workspace/PATH/delimiter=\:
+environment/workspace/PATH/operation=replace
+environment/workspace/PATH/value=/home/rajssss/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin\:/home/rajssss/.espressif/tools/xtensa-esp32s2-elf/esp-2020r3-8.4.0/xtensa-esp32s2-elf/bin\:/home/rajssss/.espressif/tools/xtensa-esp32s3-elf/esp-2020r3-8.4.0/xtensa-esp32s3-elf/bin\:/home/rajssss/.espressif/tools/riscv32-esp-elf/1.24.0.123_64eb9ff-8.4.0/riscv32-esp-elf/bin\:/home/rajssss/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin\:/home/rajssss/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin\:/home/rajssss/.espressif/tools/openocd-esp32/v0.10.0-esp32-20210401/openocd-esp32/bin\:/home/rajssss/.espressif/python_env/idf4.4_py3.8_env/bin\:/home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/tools\:/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/snap/bin" JAVA_HOME\="/usr/lib/jvm/java-16-oracle\:/snap/bin\:/usr/lib/jvm/java-16-oracle/bin\:/usr/lib/jvm/java-16-oracle/db/bin
+environment/workspace/append=true
+environment/workspace/appendContributed=true
+org.eclipse.cdt.core.showSourceFilesInBinaries=true
+org.eclipse.cdt.core.showSourceNotFoundEditor=all_time
