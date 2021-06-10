@@ -1,8 +1,53 @@
 cmake --build . -- -v
-[1/4] cd /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/esp-idf/esptool_py && python /home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/partition_table/partition-table.bin /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/blink.bin
-blink.bin binary size 0x29ff0 bytes. Smallest app partition is 0x100000 bytes. 0xd6010 bytes (84%) free.
-[2/4] cd /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/bootloader && /usr/bin/cmake --build .
-[1/1] cd /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/bootloader/esp-idf/esptool_py && python /home/rajssss/Documents/Microcontroller/esp/tools/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/bootloader/bootloader.bin
-Bootloader binary size 0x60c0 bytes. 0xf40 bytes (16%) free.
+[0/1] /usr/bin/cmake -S/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink -B/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build
+-- Building for target esp32
+-- ccache will be used for faster builds
+CMake Error at /home/rajssss/Documents/Microcontroller/esp/tools/esp-idf-v3.3.5/tools/cmake/project.cmake:95 (__project):
+  The CMAKE_C_COMPILER:
+
+    /home/rajssss/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (project)
+
+
+CMake Error at /home/rajssss/Documents/Microcontroller/esp/tools/esp-idf-v3.3.5/tools/cmake/project.cmake:95 (__project):
+  The CMAKE_CXX_COMPILER:
+
+    /home/rajssss/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (project)
+
+
+CMake Error at /home/rajssss/Documents/Microcontroller/esp/tools/esp-idf-v3.3.5/tools/cmake/project.cmake:95 (__project):
+  The CMAKE_ASM_COMPILER:
+
+    /home/rajssss/.espressif/tools/xtensa-esp32-elf/esp-2020r3-8.4.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "ASM" or the CMake cache entry CMAKE_ASM_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+Call Stack (most recent call first):
+  CMakeLists.txt:8 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/usr/bin/cmake -S/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink -B/home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build
+ninja: error: rebuilding 'build.ninja': subcommand failed
 Build complete (0 errors, 0 warnings): /home/rajssss/Documents/Microcontroller/IICDC/esp-work/blink/build
-Total time taken to build the project: 184 ms
+Total time taken to build the project: 685 ms
